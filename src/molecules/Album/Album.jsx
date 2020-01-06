@@ -46,7 +46,7 @@ Album.propTypes = {
 Album.defaultProps = {
   album: shape({
     title: '',
-    thumbnail: 'string',
+    thumbnail: '',
     artists: [],
     released: null,
     country: '',
