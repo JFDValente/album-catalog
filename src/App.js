@@ -6,8 +6,12 @@ import {
   Link
 } from "react-router-dom";
 
-import Style from './App.style'; 
 import List from './pages/List';
+import Create from './pages/Create';
+import Edit from './pages/Edit';
+import Search from './pages/Search';
+
+import Style from './App.style'; 
 
 export default function App() {
   return (
@@ -46,29 +50,5 @@ export default function App() {
         </Switch>
       </div>
     </Router>
-  );
-}
-
-function Search() {
-  return (
-    <div>
-      <h2>Search</h2>
-    </div>
-  );
-}
-
-function Create() {
-  return (
-    <div>
-      <h2>Create</h2>
-    </div>
-  );
-}
-
-function Edit() {
-  return (
-    <div>
-      <h2>Edit</h2>
-    </div>
   );
 }

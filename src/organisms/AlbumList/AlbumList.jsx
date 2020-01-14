@@ -4,7 +4,6 @@ import {
   shape,
 } from 'prop-types';
 
-
 import Album from './../../molecules/Album';
 import Style from './AlbumList.style';
 
@@ -22,10 +21,10 @@ function AlbumList({ catalog }) {
 }
 
 Album.propTypes = {
-  album: arrayOf(shape()),
+  catalog: arrayOf(shape()),
 };
     
 Album.defaultProps = {
-  album: [],
+  catalog: [],
 };
 export default AlbumList;
